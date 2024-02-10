@@ -1,0 +1,43 @@
+body{
+    background-color: peru;
+}
+#food {
+    background-color: white;
+    grid-row: 1/3;
+}
+.favcolor {
+    background-color: blue;
+    color: aliceblue;
+}
+section {
+    padding: 30px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* max-width: 700px; */
+}
+.russia {
+    background-color: red;
+    color: rebeccapurple;
+    font-weight: bold;
+    grid-row: 1;
+}
+.russia div {
+    background-color: black;
+}
+footer {
+    display: grid;
+    padding-top: 1px;
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: 650px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.lol {
+    display: grid;
+    background-color: red;
+}
+.hello {
+    grid-column: 1/-1;
+}

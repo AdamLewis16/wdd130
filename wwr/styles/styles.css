@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Lemon&display=swap');
+
 #content{
     margin: 0 auto;
     max-width: 1600px;
@@ -5,6 +7,7 @@
 nav a{
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -24,6 +27,10 @@ main section{
 body{
     background-color: #353535;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #D9D9D9;
@@ -48,25 +55,39 @@ nav a:hover{
 .msg{
     background-color: #F96E64;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #F96E64;
     color: white;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 .logo{
     width: 80px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
 }
 .book{
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 footer a{
     text-decoration: none;
@@ -76,4 +97,40 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+.home-title {
+font-family: 'Lemon', Courier, monospace;
+font-size: 2em;
+margin-top: 10px;
+}
+.msg h2 {
+    font-family: 'Lemon', Courier, monospace;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.social img {
+    padding-top: 15px;
+}
+.rivers-card {
+margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #F96E64;
+}
+main section img {
+    box-sizing: border-box;
 }
